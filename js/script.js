@@ -12,12 +12,12 @@ let rightBtn = document.querySelector(".lightbox-controls .right");
 let lightboxText = document.querySelector(".caption-text");
 let closeBtn = document.querySelector(".lightbox-close");
 let currentItem = 0;
-window.addEventListener("load", () => {
-  document.querySelector(".preloader").classList.add("opacity-0");
-  setTimeout(() => {
-    document.querySelector(".preloader").style.display = "none";
-  }, 1000);
-});
+// window.addEventListener("load", () => {
+//   document.querySelector(".preloader").classList.add("opacity-0");
+//   setTimeout(() => {
+//     document.querySelector(".preloader").style.display = "none";
+//   }, 1000);
+// });
 
 // LOOP AT THE ITEMS AND UPDATE VLUES
 portfolioItems.forEach((item, index) => {
